@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="jquery-hovergroup.js"></script>
+
+		<style type="text/css">
+			.hg-hover {
+				background-color: blue;
+			}
+		</style>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(document).hovergroup();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div data-hg="1">Stuff</div>
+		<div data-hg="1">Stuff</div>
+		<div data-hg="2">Stuff</div>
+		<div data-hg="2">Stuff</div>
+		<div data-hg="3">Stuff</div>
+		<div data-hg="3">Stuff</div>
+		<div data-hg="1 2">Stuff</div>
+		<div data-hg="1 3">Stuff</div>
+	</body>
+</html>
